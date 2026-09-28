@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Munachimso & Chukwukamso | 16</title>
+    <meta
+      name="description"
+      content="A birthday experience for Munachimso and Chukwukamso on their 16th birthday."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div id="confetti" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand">M&C<span>16</span></div>
+      <div class="date-pill">29 SEPTEMBER 2026</div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            A birthday experience for two very different humans
+          </p>
+          <h1>Munachimso<br /><span>&amp;</span> Chukwukamso</h1>
+          <div class="age-lockup">
+            <span class="age">16</span>
+            <div>
+              <strong>YEARS</strong>
+              <small>of chaos, growth &amp; memories</small>
+            </div>
+          </div>
+          <p class="hero-text">
+            Two siblings. One birthday. Two completely different operating
+            systems. Somehow, both made it to sixteen.
+          </p>
+          <button class="primary-btn" id="openSurprise">
+            Open Your Birthday Surprise <span>→</span>
+          </button>
+        </div>
+
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit orbit-outer"></div>
+          <div class="orbit orbit-inner"></div>
+          <div class="orbit-core">16</div>
+          <div class="float-card float-top">🎂</div>
+          <div class="float-card float-right">✨</div>
+          <div class="float-card float-bottom">🎮</div>
+          <div class="float-card float-left">🍥</div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="surprise">
+        <div class="section-heading">
+          <p class="eyebrow">01 · THE REVEAL</p>
+          <h2>Happy 16th Birthday! 🎉</h2>
+          <p>
+            September 29, 2026. A Tuesday, according to the calendar, but
+            significantly more important because you two exist.
+          </p>
+        </div>
+
+        <div class="glass birthday-message">
+          <div class="message-icon">🎂</div>
+          <div>
+            <h3>Sixteen looks good on you two.</h3>
+            <p>
+              You've finished WAEC, JAMB is next year, and university is getting
+              closer. This is the beginning of a completely new chapter. Keep
+              learning, keep growing, keep making memories, and please try not
+              to give me, your older brother too many reasons to ask, “Who
+              raised you people?” 😂
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">02 · TWO DIFFERENT OPERATING SYSTEMS</p>
+          <h2>Meet the birthday twins.</h2>
+          <p>
+            Same family. Same birthday. Almost completely different settings.
+          </p>
+        </div>
+
+        <div class="siblings-grid">
+          <article class="person-card munachi">
+            <div class="person-photo portrait-photo">
+              <img
+                src="WhatsApp%20Image%202026-09-26%20at%2010.52.55.jpeg"
+                alt="Munachimso in a burgundy dress"
+              />
+              <small>MUNACHIMSO</small>
+            </div>
+            <div class="person-content">
+              <span class="person-tag">THE TALKATIVE ONE</span>
+              <h3>Munachimso</h3>
+              <p class="person-subtitle">
+                Smart. Stubborn. Loud. Somehow still lovable.
+              </p>
+              <p>
+                She has never met a conversation she couldn't contribute to, or
+                an argument she couldn't extend by another forty-five minutes.
+                Very smart, very talk-active, occasionally disrespectful, and
+                apparently powered by an unlimited supply of opinions.
+              </p>
+              <div class="interest-row">
+                <span>💰 Money</span>
+                <span>🍥 Anime</span>
+                <span>🧠 Smart</span>
+              </div>
+              <button class="mini-btn" data-action="stubborn">
+                Measure her stubbornness
+              </button>
+              <p class="action-result" id="stubbornResult"></p>
+            </div>
+          </article>
+
+          <article class="person-card kamso">
+            <div class="person-photo portrait-photo">
+              <img
+                src="WhatsApp%20Image%202026-09-26%20at%2010.59.36.jpeg"
+                alt="Chukwukamso smiling in a burgundy outfit"
+              />
+              <small>CHUKWUKAMSO</small>
+            </div>
+            <div class="person-content">
+              <span class="person-tag">THE NONCHALANT ONE</span>
+              <h3>Chukwukamso</h3>
+              <p class="person-subtitle">
+                Quiet. Unbothered. Probably playing Free Fire.
+              </p>
+              <p>
+                While Munachimso can fill a room with conversation, Kamso can
+                communicate an entire paragraph with one word: “Okay.” He
+                doesn't say much, but he has his own world, his own interests,
+                and his own extremely relaxed approach to life.
+              </p>
+              <div class="interest-row">
+                <span>🔥 Free Fire</span>
+                <span>🎬 MrBeast</span>
+                <span>😌 Unbothered</span>
+              </div>
+              <button class="mini-btn" data-action="excite">
+                Try to get Kamso excited
+              </button>
+              <p class="action-result" id="exciteResult"></p>
+            </div>
+          </article>
+        </div>
+
+        <div class="contrast glass">
+          <div class="contrast-item">
+            <strong>Munachimso</strong>
+            <span>“Let me explain...”</span>
+          </div>
+          <div class="vs">VS</div>
+          <div class="contrast-item">
+            <strong>Chukwukamso</strong>
+            <span>“Okay.”</span>
+          </div>
+          <p class="contrast-footer">Somehow, you're related. 😂</p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">03 · NEXT LEVEL</p>
+          <h2>WAEC → JAMB → UNIVERSITY 🎓</h2>
+          <p>One chapter is closing. The next one is already loading.</p>
+        </div>
+
+        <div class="journey">
+          <div class="journey-line"></div>
+          <article class="journey-card done">
+            <span class="journey-number">01</span>
+            <h3>WAEC</h3>
+            <strong>DONE ✓</strong>
+            <p>You both made it through. Respect!</p>
+          </article>
+          <article class="journey-card current">
+            <span class="journey-number">02</span>
+            <h3>JAMB</h3>
+            <strong>LOADING...</strong>
+            <p>Next year. Time to lock in.</p>
+          </article>
+          <article class="journey-card future">
+            <span class="journey-number">03</span>
+            <h3>UNIVERSITY</h3>
+            <strong>UNLOCKED SOON</strong>
+            <p>New people, new responsibilities, new memories.</p>
+          </article>
+        </div>
+
+        <div class="glass advice">
+          <h3>For the chapter ahead</h3>
+          <p>
+            Don't rush adulthood. Learn. Make mistakes. Learn from them. Choose
+            your friends carefully. Take your education seriously. Learn how to
+            handle money.Don't be like me. Stay close to God and to your family.
+            And when life gets difficult, remember that you don't have to figure
+            everything out in one day.
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">04 · SIXTEEN THINGS</p>
+          <h2>Things I want you both to remember.</h2>
+          <p>Sixteen cards. Open them one at a time.</p>
+        </div>
+
+        <div class="wishes-grid" id="wishesGrid"></div>
+      </section>
+
+      <section class="section reveal memories">
+        <div class="section-heading">
+          <p class="eyebrow">05 · THE MEMORY VAULT</p>
+          <h2>Sixteen years of memories.</h2>
+          <p>
+            Birthday portraits, sibling snapshots and a few throwbacks from
+            the years that got you here.
+          </p>
+        </div>
+
+        <div class="photo-grid">
+          <div class="photo-slot large">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2010.52.56%20(1).jpeg"
+              alt="Munachimso posing in a burgundy dress"
+            />
+            <small>MUNACHIMSO</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2010.52.57.jpeg"
+              alt="Munachimso in a patterned headscarf"
+            />
+            <small>MUNACHIMSO</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2011.03.49.jpeg"
+              alt="Munachimso and Chukwukamso together"
+            />
+            <small>SIBLING MEMORY</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2010.52.56%20(2).jpeg"
+              alt="Munachimso relaxing in a burgundy dress"
+            />
+            <small>MUNACHIMSO</small>
+          </div>
+          <div class="photo-slot large">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2010.52.56.jpeg"
+              alt="Munachimso taking a selfie"
+            />
+            <small>MUNACHIMSO</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2011.03.52.jpeg"
+              alt="Munachimso in a white outfit"
+            />
+            <small>MUNACHIMSO</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2011.03.51%20(1).jpeg"
+              alt="Chukwukamso relaxing on a couch"
+            />
+            <small>THROWBACK</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2011.03.49%20(1).jpeg"
+              alt="Chukwukamso smiling for a selfie"
+            />
+            <small>CHUKWUKAMSO</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2011.03.49%20(2).jpeg"
+              alt="A childhood portrait"
+            />
+            <small>THROWBACK</small>
+          </div>
+          <div class="photo-slot">
+            <img
+              src="WhatsApp%20Image%202026-09-26%20at%2011.03.51.jpeg"
+              alt="Chukwukamso standing outdoors"
+            />
+            <small>CHUKWUKAMSO</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal chaos">
+        <div class="section-heading">
+          <p class="eyebrow">06 · SIBLING CHAOS</p>
+          <h2>Things you two have survived.</h2>
+        </div>
+
+        <div class="chaos-grid">
+          <button class="chaos-card">
+            🏠<strong>Being born into this family</strong
+            ><span>Achievement unlocked.</span>
+          </button>
+          <button class="chaos-card">
+            📚<strong>School</strong><span>Somehow, WAEC is behind you.</span>
+          </button>
+          <button class="chaos-card">
+            🍲<strong>“Who ate my food?”</strong
+            ><span>A question with no reliable witnesses.</span>
+          </button>
+          <button class="chaos-card">
+            👀<strong>“Who broke this?”</strong
+            ><span>Everyone suddenly develops amnesia.</span>
+          </button>
+          <button class="chaos-card">
+            🗣️<strong>Family meetings</strong
+            ><span>Munachi has a statement ready.</span>
+          </button>
+          <button class="chaos-card">
+            🎮<strong>Growing up</strong><span>Level 16 unlocked.</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section reveal letter-section">
+        <div class="letter glass">
+          <p class="eyebrow">07 · FROM YOUR BIG BROTHER</p>
+          <h2>A message for both of you.</h2>
+          <p>
+            Watching younger siblings grow up is strange. One minute you're
+            looking at children, and somehow you're suddenly looking at two
+            sixteen-year-olds preparing for university.
+          </p>
+          <p>
+            I'm proud of how far you've both come. You are very different
+            people, and you don't have to become the same kind of person.
+            Munachi, keep your intelligence and ambition, but remember that
+            being smart is even better when it comes with humility and respect.
+            Kamso, you don't have to be the loudest person in a room. Keep your
+            calm, but never let being nonchalant stop you from caring about the
+            things that matter.
+          </p>
+          <p>
+            The years ahead will change you both. I hope they make you wiser,
+            stronger, kinder and more confident. Take care of yourselves. Look
+            out for each other. And remember that your family will always be
+            part of your story.
+          </p>
+          <p class="signature">
+            Happy 16th, both of you. ❤️<br /><strong>— Your Big Brother</strong>
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal secret-section">
+        <button class="secret-btn" id="secretBtn">🚨 DO NOT CLICK THIS</button>
+        <div class="secret-message" id="secretMessage">
+          <p class="eyebrow">YOU CLICKED IT? MUMU!.</p>
+          <h2>You're 16 now. Congratulations. 😂</h2>
+          <p>
+            You were specifically told not to click that button. You fucking idiot! Apparently,
+            sixteen years of life have not produced the required level of
+            obedience.
+          </p>
+          <p>Still... I love you both. Don't let it get to your heads sha.</p>
+        </div>
+      </section>
+
+      <section class="finale reveal" id="finale">
+        <div class="finale-stars"></div>
+        <p class="eyebrow">29 · 09 · 2026</p>
+        <h2>HAPPY<br /><span>16TH</span><br />BIRTHDAY</h2>
+        <p class="final-names">MUNACHIMSO &amp; CHUKWUKAMSO</p>
+        <p class="final-line">Sixteen years down. A whole lifetime ahead.</p>
+        <button class="primary-btn" id="celebrateBtn">
+          🎉 Celebrate Again
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      Made with love, sarcasm, and it took me time like mad, my services no
+      cheap sha, and a suspicious amount of sibling evidence. ❤️
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

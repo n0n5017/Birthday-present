@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Munachimso & Chukwukamso | 16",
+      "hasCanvas": false,
+      "bodyTextLen": 218,
+      "bodyTextHash": "b25f6678904f7927ea5628543344a93c2597890ecd86a15b46606da82055bb68",
+      "bodyTextPrefix": "Skip to the birthday for M&C 16 Sound off 29 · 09 · 2026 Munachi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Munachimso & Chukwukamso | 16",
+      "hasCanvas": false,
+      "bodyTextLen": 218,
+      "bodyTextHash": "b25f6678904f7927ea5628543344a93c2597890ecd86a15b46606da82055bb68",
+      "bodyTextPrefix": "Skip to the birthday for M&C 16 Sound off 29 · 09 · 2026 Munachi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
